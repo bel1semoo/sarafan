@@ -224,8 +224,6 @@ body {
 .collection__group-2 {
     display:flex;
 }
-.collection__card-2 {
-}
 .collection__image-2 {
     width: 570px;
     height: 649px;
@@ -278,8 +276,6 @@ body {
     color: #2D2D2D;
     margin-bottom: 20px;
 }
-.inspiration__photos{
-}
 .inspiration{
     margin-bottom:120px;
 }
@@ -296,7 +292,6 @@ body {
     color: #6F6F6F;
     margin-bottom: 60px; 
 }
-<<<<<<< HEAD
 .faster{
     margin-bottom:120px;
 }
