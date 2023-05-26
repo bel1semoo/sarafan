@@ -159,6 +159,8 @@ body {
 
 
 
+
+
 .collection{
     padding-top: 20%;
     
@@ -248,6 +250,10 @@ body {
     margin-bottom: 120px;
 }
 
+.faster {
+    padding-top: 120px;
+}
+
 .inspiration__text {
     display: flex;
 }
@@ -288,4 +294,18 @@ body {
     text-decoration-line: underline;
     color: #6F6F6F;
     margin-bottom: 60px; 
+}
+
+.footer {
+    padding-top: 10%;
+}
+
+.footer__line {
+    position: absolute;
+    width: 1600px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+
+    border: 1px solid #2D2D2D;
 }
