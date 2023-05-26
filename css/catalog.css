@@ -1,0 +1,31 @@
+[class*="__container"]{
+    max-width: 1170px;
+    margin:0 auto;
+    padding-top: 50px;
+}
+body{
+    font-family: 'Montserrat';
+}
+.clothes__page{
+    display:flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin-bottom:10px;
+}
+.clothes__logo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.clothes__dress{
+    margin-left:3px;
+    color:#C4C4C4;
+}
