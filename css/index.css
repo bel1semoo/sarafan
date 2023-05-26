@@ -162,12 +162,7 @@ body {
 
 
 .collection{
-<<<<<<< HEAD
     padding-top:20%;
-=======
-    padding-top: 20%;
-    
->>>>>>> 09222df9e5cb79003c959e096c1835b5bd383dea
 }
 
 .collection__logo {
@@ -363,11 +358,11 @@ body {
 
 .faster__arrow_left {
     float:left;
-    margin:270px 62px 0 147px;
+    margin:270px 62px 0 297px;
 }
 .faster__arrow_right {
     float:right;
-    margin:270px 147px 0 62px;
+    margin:270px 297px 0 62px;
 }   
 .footer {
     padding-top: 10%;
@@ -380,5 +375,3 @@ body {
     top: 0px;
     border: 1px solid #2D2D2D;
 }
-delete this massage
-delete this massage
