@@ -1,4 +1,5 @@
-[class*="__container"]{
+
+.info__container{
     max-width: 1170px;
     margin:0 auto;
     padding-top: 50px;
@@ -6,7 +7,7 @@
 body{
     font-family: 'Montserrat';
 }
-.clothes__page{
+.info__page{
     display:flex;
     font-style: normal;
     font-weight: 400;
@@ -16,7 +17,7 @@ body{
     color: #2D2D2D;
     margin-bottom:10px;
 }
-.clothes__logo{
+.info__logo{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -24,8 +25,110 @@ body{
     line-height: 113.9%;
     letter-spacing: 0.03em;
     color: #2D2D2D;
+    margin-bottom:50px;
 }
-.clothes__dress{
-    margin-left:3px;
+.info__dress{
+    margin-left:5px;
     color:#C4C4C4;
+}
+.dress__container{
+    max-width: 996px;
+    margin:0 auto;
+    padding-top: 50px;
+}
+
+.info__what{
+    display:flex;
+    justify-content: space-between;
+}
+.info__filter{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.info__sorting{
+    margin-right: 129px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6F6F;
+}
+.info__sorting::after{
+    content: url('../img/Vectorbottom.svg');
+    margin-left:17px;
+}
+
+.dress_cards {
+    display:flex;
+    margin-bottom: 80px;
+}
+.dress__card {
+}
+.dress__image:first-child{
+    margin:0 52px 20px 0;
+}
+.dress__image {
+    width: 472px;
+    height: 493px;
+    margin:0 0 20px 0;
+    text-align: right;
+}
+
+.img-1{
+    background-image: url("../img/IMG_4803.png");
+}
+.dress__link {
+    padding:16px 25px;
+}
+.dress__arrows {
+
+}
+.dress__arrow-left {
+    float:left;
+    margin:200px 0 240px 23px;
+}
+.dress__arrow-right {
+    float:right;
+    margin:200px 23px 240px 0;
+}
+.dress__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom:8px;
+}
+.dress__price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom:10px;
+}
+.dress__colors {
+}
+.dress__color {
+    margin-right: 10px;
+}
+.dress__color:last-child{
+    margin:0;
+}
+
+
+.img-2{
+    background-image: url("../img/IMG_4809whitedress.png");
+}
+
+.dress__photo{
+    text-align: center;
+}
+.gown__container{
+    max-width: 996px;
+    margin:0 auto;
+    padding-top: 50px;
 }
