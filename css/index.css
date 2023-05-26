@@ -188,11 +188,10 @@ body {
 .collection__image {
     width:270px;
     height: 353px;
-    display:flex;
 }
 .collection__link {
-    padding:17px 15px 0 534px;
-  
+    padding:17px 15px 0 0; 
+    float: right
 }
 .collection__text {
     font-style: normal;
@@ -228,20 +227,24 @@ body {
 .collection__card-2 {
 }
 .collection__image-2 {
+    width: 570px;
+    height: 649px;
+    margin-top:61px;
+}
+.collection__image-2:first-child{
+    margin-right: 30px;
 }
 .img-1 {
     background-image: url("../img/IMG_4686.png");
-    width: 570px;
-    height: 649px;
-}
-.collection__link {
-}
-.collection__text {
-}
-.collection__price {
 }
 .img-2 {
     background-image: url("../img/IMG_4770.png");
-    width: 570px;
-    height: 649px;
+}
+.collection__price-2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 120px;
 }
