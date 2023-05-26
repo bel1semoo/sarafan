@@ -162,8 +162,12 @@ body {
 
 
 .collection{
+<<<<<<< HEAD
+    padding-top:20%;
+=======
     padding-top: 20%;
     
+>>>>>>> 09222df9e5cb79003c959e096c1835b5bd383dea
 }
 
 .collection__logo {
@@ -280,6 +284,8 @@ body {
     margin-bottom: 20px;
 }
 .inspiration__photos{
+}
+.inspiration{
     margin-bottom:120px;
 }
 .inspiration__photo:first-child{
@@ -295,17 +301,83 @@ body {
     color: #6F6F6F;
     margin-bottom: 60px; 
 }
+<<<<<<< HEAD
+.faster{
+    margin-bottom:120px;
+}
+.faster__logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.faster__cards {
+    display:flex;
+}
+.faster__card {
+    margin:30px 30px 20px 0;
+}
+.faster__card:last-child{
+    margin:30px 0 20px 0;
+}
+.faster__image {
+    width: 270px;
+    height: 353px;
+    margin-bottom: 20px;
+}
+.faster__link {
+    padding:17px 15px 0 0; 
+    float: right
+}
+.faster__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 8px;
+}
+.faster__price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
 
+.img_1{
+    background-image: url("../img/IMG_4951.png");
+}
+.img_2{
+    background-image: url("../img/IMG_4811.png");
+}
+.img_3{
+    background-image: url("../img/IMG_8180.png");
+}
+.img_4{
+    background-image: url("../img/IMG_4801.png");
+}
+
+.faster__arrow_left {
+    float:left;
+    margin:270px 62px 0 147px;
+}
+.faster__arrow_right {
+    float:right;
+    margin:270px 147px 0 62px;
+}   
 .footer {
     padding-top: 10%;
 }
-
 .footer__line {
     position: absolute;
     width: 1600px;
     height: 0px;
     left: 0px;
     top: 0px;
-
     border: 1px solid #2D2D2D;
 }
+delete this massage
