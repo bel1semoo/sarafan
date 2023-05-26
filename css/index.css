@@ -1,0 +1,20 @@
+.wrapper {
+    padding: 36px 0 0 256px;
+}
+
+.nav__list {
+    display: flex;
+    margin-right: 44px;
+    text-align: center;
+    column-gap: 44px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;   
+}
+  
+.logo {   
+    margin-left: 86px;
+}
+  
