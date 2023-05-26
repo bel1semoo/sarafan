@@ -99,7 +99,7 @@ body{
 }
 
 .collection{
-    display: none;
+    
 }
 .collection__container {
 }
@@ -186,4 +186,46 @@ body{
     line-height: 113.9%;
     color: #2D2D2D;
     margin-bottom: 120px;
+}
+
+.inspiration__text {
+    display: flex;
+}
+.inspiration__logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin:0 124px 191px 0;
+}
+.inspiration__info {
+    max-width: 370px;
+}
+.inspiration__advantages {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+.inspiration__photos{
+    margin-bottom:120px;
+}
+.inspiration__photo:first-child{
+    margin-right: 26px;
+}
+.inspiration__brand{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    color: #6F6F6F;
+    margin-bottom: 60px; 
 }
