@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../sarafan/css/reset.css">
+    <link rel="stylesheet" href="../sarafan/css/index.css">
     <title>Главная</title>
     <link rel="stylesheet" href="../sarafan/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;800&family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <section class="header">
-        <div class="header__list">
+
+    <header class="header">       
+        <div class="wrapper">
+            <nav class="header__list">
+                <ul class="nav__list">
+                    <li class="header__text"><a href="">Новинки</a></li>
+                    <li class="header__text"><a href="">Одежда</a></li>
+                    <li class="header__text"><a href="">Аксессуары</a></li>
+                    <li class="header__text"><a href="">SALE</a></li>                 
+                </ul>
+                <img class="logo" src="../sarafan/img/logo.jpg" alt="">             
+            </nav>
         </div>
-    </section>
+    </header>
+
     <section class="collection" >
         <div class="collection__container" >
            <div class="collection__logo">
@@ -24,7 +37,7 @@
                 <div class="collection__group-1">
                     <div class="collection__card">
                         <div class="collection__image image-1">
-                            <img class="collection__link" src="../sarafan/img/Vector.svg" alt="">
+                            <button><img class="collection__link" src="../sarafan/img/Vector.svg" alt=""></button>
                         </div>
                         <div class="collection__text">
                             Платье в полоску с запахом
@@ -35,7 +48,7 @@
                     </div>
                     <div class="collection__card">
                         <div class="collection__image image-2">
-                            <img class="collection__link" src="../sarafan/img/Vector.svg" alt="">
+                            <button><img class="collection__link" src="../sarafan/img/Vector.svg" alt=""></button>
                         </div>
                         <div class="collection__text">
                             Объемный пиджак
@@ -46,7 +59,7 @@
                     </div>
                     <div class="collection__card">
                         <div class="collection__image image-3">
-                            <img class="collection__link" src="../sarafan/img/Vector.svg" alt="">
+                            <button><img class="collection__link" src="../sarafan/img/Vector.svg" alt=""></button>
                         </div>
                         <div class="collection__text">
                             Комбинезон с принтом    
@@ -57,7 +70,7 @@
                     </div>
                     <div class="collection__card">
                         <div class="collection__image image-4">
-                            <img class="collection__link" src="../sarafan/img/Vector.svg" alt="">
+                            <button><img class="collection__link" src="../sarafan/img/Vector.svg" alt=""></button>
                         </div>
                         <div class="collection__text">
                             Атласный топ-комбинация
@@ -68,12 +81,33 @@
                     </div>
                 </div>
                 <div class="collection__group-2">
-                    <div class="collection__card-2"></div>
-                    <div class="collection__card-2"></div>
+                    <div class="collection__card-2">
+                        <div class="collection__image-2 img-1">
+                            <button><img class="collection__link" src="../sarafan/img/Vector.svg" alt=""></button>
+                        </div>
+                        <div class="collection__text">
+                            Блейзер с декоративными пуговицами
+                        </div>
+                        <div class="collection__price">
+                            9 999 руб.
+                        </div>
+                    </div>
+                    <div class="collection__card-2">
+                        <div class="collection__image-2 img-2">
+                            <button><img class="collection__link" src="../sarafan/img/Vector.svg" alt=""></button>
+                        </div>
+                        <div class="collection__text">
+                            Блейзер с декоративными пуговицами
+                        </div>
+                        <div class="collection__price">
+                            9 999 руб.
+                        </div>
+                    </div>  
                 </div>
            </div>
+
         </div>
-    </section>
+    
 </body>
 </html>
 
