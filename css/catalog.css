@@ -1,3 +1,4 @@
+
 .nav__list {
     display: flex;
     margin-right: 44px;
@@ -136,10 +137,15 @@
 }
 
 
+
+.info{
+    margin-bottom:50px;
+}
+
 .info__container{
     max-width: 1170px;
     margin:0 auto;
-    padding-top: 50px;
+    padding-top: 50px; 
 }
 body{
     font-family: 'Montserrat';
@@ -155,14 +161,12 @@ body{
     margin-bottom:10px;
 }
 .info__logo{
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 113.9%;
     letter-spacing: 0.03em;
     color: #2D2D2D;
-    margin-bottom:50px;
 }
 .info__dress{
     margin-left:5px;
@@ -171,7 +175,6 @@ body{
 .dress__container{
     max-width: 996px;
     margin:0 auto;
-    padding-top: 50px;
 }
 
 .info__what{
@@ -202,8 +205,6 @@ body{
     display:flex;
     margin-bottom: 80px;
 }
-.dress__card {
-}
 .dress__image:first-child{
     margin:0 52px 20px 0;
 }
@@ -213,15 +214,14 @@ body{
     margin:0 0 20px 0;
     text-align: right;
 }
-
+.dress{
+    margin-bottom:80px;
+}
 .img-1{
     background-image: url("../img/IMG_4803.png");
 }
 .dress__link {
     padding:16px 25px;
-}
-.dress__arrows {
-
 }
 .dress__arrow-left {
     float:left;
@@ -247,15 +247,12 @@ body{
     color: #2D2D2D;
     margin-bottom:10px;
 }
-.dress__colors {
-}
 .dress__color {
     margin-right: 10px;
 }
 .dress__color:last-child{
     margin:0;
 }
-
 
 .img-2{
     background-image: url("../img/IMG_4809whitedress.png");
@@ -267,5 +264,138 @@ body{
 .gown__container{
     max-width: 996px;
     margin:0 auto;
-    padding-top: 50px;
+    width: 100%;
+}
+
+.gown {
+    margin-bottom: 80px;
+}
+.gown__cards {
+    display:flex;
+    gap:26px;
+    margin-bottom: 40px;
+}
+.gown__image {
+    width: 472px;
+    height: 493px;
+    margin-bottom: 20px;
+}
+.image_1 {
+    background-image: url("../img/IMG_4904.png");
+}
+.image_2 {
+    background-image: url("../img/IMG_5566.png");
+}
+.image_3 {
+    background-image: url("../img/IMG_4803.png");
+}
+.image_4 {
+    background-image: url("../img/IMG_4809.png");
+}
+.gown__link {  
+    padding:16px 25px;
+    float: right; 
+}
+.gown__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 8px;
+}
+.gown__price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 10px;
+}
+.gown__colors {
+    margin-bottom:40px;
+}
+.gown__color {
+    margin-right: 10px;
+}
+.gown__photo {
+    text-align: center;
+}
+.more__container{
+    max-width: 996px;
+    margin:0 auto;
+    width: 100%; 
+}
+
+.more {
+    margin-bottom: 95px;
+}
+.more__cards {
+    display:flex;
+    margin-bottom: 50px;
+    gap:26px;
+}
+.more__image {
+    width: 472px;
+    height: 493px;
+    margin-bottom: 20px;
+}
+.image-1 {
+    background-image: url("../img/IMG_4904.png");
+}
+.image-2 {
+    background-image: url("../img/IMG_5566.png");
+}
+.more__link {
+    padding:16px 25px;
+    float: right; 
+}
+.more__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 8px;
+}
+.more__price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 10px;
+}
+.more__colors {
+    margin-bottom: 5px;
+}
+.more__color {
+    margin-right: 5px;
+}
+.more__color:last-child{
+    margin:0;
+}
+.more__button {
+    display:block;
+    border: 1px solid #CECECE;
+    margin:0 auto;
+}
+.more__more {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2D2D2D;
+    padding:19px 64px 19px 65px;
+}
+.more__button:hover{
+    background-color:#999ea6;
+    opacity: 60%; 
+}
+.more__button:active{
+    background-color:#999ea6;
+    opacity: 80%; 
 }
