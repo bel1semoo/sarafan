@@ -22,7 +22,18 @@
 .menu-2 a {
     color: #2D2D2D;
 }
-  
+
+.menu a:hover {
+    color: #6F6F6F;
+}
+
+.menu-2 a:hover {
+    color: #6F6F6F;
+}
+ 
+.header__text-2:hover {
+    color: #6F6F6F;
+}
 
 .header__list {
     display: flex;
