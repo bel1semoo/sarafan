@@ -472,4 +472,44 @@ body{
     color: #2D2D2D;
 }
 
+.dropdown-overlay {
+    padding-top: 85px;
+}
+
+.dropdown-text {
+    display: inline-block;
+}
+
+.dropdown-text-2 {
+    display: inline-block;
+    padding-left: 130px;
+}
+
+.drowdown-girl {
+    position: absolute;
+    width: 523px;
+    height: 694px;
+    left: 590px;
+    top: 50px;
+
+
+}
+
+.dropdown-overlay {
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-textes {
+    margin-bottom: 15px;
+}
+
+.dropdown-textes {
+    display: flex;
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 16px;
+}
 
