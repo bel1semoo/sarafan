@@ -399,4 +399,75 @@ body{
     background-color:#999ea6;
     opacity: 80%; 
 }
-/*commit*/
+
+.footer {
+    
+    padding-top: 5%;
+}
+
+.items-2 {
+    border-top: 1px solid #C4C4C4;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.footer-text {
+    margin: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.footer-text-1 {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 27px;
+    color: #2D2D2D;
+    
+}
+
+.item {
+    padding-top: -10%;
+}
+
+.footer-text {
+    padding-left: 19px;
+    color: #2D2D2D;
+}
+
+.footer-text:hover {
+    
+    color: #C4C4C4;
+}
+
+.nav__list-footer {
+    display: inline-block;
+    padding-left: 150px;
+    padding-top: -20px;
+    
+}
+
+.nav__list-footer-2 {
+    display: inline-block;
+    padding-left: 150px;
+    padding-top: 15px;
+    
+}
+
+.nav__list-footer-3 {
+    display: inline-block;
+    padding-left: 150px;
+    
+}
+
+.poli {
+    text-align: center;
+    padding-top: 140px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #CECECE;
+}
+
+.nav__list-footer > li > a {
+    color: #2D2D2D;
+}
