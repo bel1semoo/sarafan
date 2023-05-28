@@ -149,6 +149,8 @@
 }
 body{
     font-family: 'Montserrat';
+    
+    
 }
 .info__page{
     display:flex;
@@ -474,6 +476,7 @@ body{
 
 .dropdown-overlay {
     padding-top: 85px;
+    
 }
 
 .dropdown-text {
@@ -489,17 +492,23 @@ body{
     position: absolute;
     width: 523px;
     height: 694px;
-    left: 590px;
-    top: 50px;
+    left: 950px;
+    top: 90px;
 
 
 }
 
 .dropdown-overlay {
-    position: fixed;
     background: white;
     width: 100%;
     height: 100%;
+    padding-bottom: 40%;
+    
+}
+
+.drowdown-girl {
+    width: 500px;
+    height: 600px;
 }
 
 .dropdown-textes {
@@ -513,3 +522,6 @@ body{
     font-size: 16px;
 }
 
+.dropdown-overlay.open {
+    overflow: hidden;
+}
