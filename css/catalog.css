@@ -43,7 +43,10 @@
 }
 
 
-
+.header__text:hover{
+    text-decoration: underline;
+    text-underline-offset: 25px;
+}
 
 
 .search-input {
@@ -189,17 +192,22 @@ body{
     color: #2D2D2D;
 }
 .info__sorting{
-    margin-right: 129px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #6F6F6F;
+    margin-top:5px;
 }
-.info__sorting::after{
-    content: url('../img/Vectorbottom.svg');
-    margin-left:17px;
+.info__help{
+    display:flex;
 }
+.info__button{
+    padding:5px 0 0 0;
+    margin:5px 129px 0 17px;
+}
+
+
 
 .dress_cards {
     display:flex;
@@ -471,5 +479,4 @@ body{
 .nav__list-footer > li > a {
     color: #2D2D2D;
 }
-
 
