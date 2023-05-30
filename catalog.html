@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;800&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <script src="../sarafan/js/catalog.js"></script>
+    <script src="../sarafan/js/jquery-3.6.4.min.js"></script>
     <title>Каталог</title>
 </head>
 <body>
@@ -18,9 +20,12 @@
             <nav class="header__list">
                 <ul class="nav__list">
                     <div class="menu">
-                        <li class="header__text"><a href="#new">Новинки</a></li>
+                        <li class="header__text"><a href="#new" >Новинки</a></li>
                     </div>
-                    <li class="header__text"><a href="">Одежда</a></li>
+                    
+                    <li class="header__text"><a  href="#gg" onclick="toggleAbout()">Одежда</a></li>
+                         
+                    </li>
                     <li class="header__text"><a href="">Аксессуары</a></li>
                     <div class="menu-2">
                         <li class="header__text"><a href="#sale">SALE</a></li>
@@ -36,12 +41,46 @@
 
                 
                 <div class="icons">
-                    <a class="ico"  href=""><img src="../sarafan/img/like.svg" alt="" class="icon"></a>
+                    <a class="ico" href=""><img src="../sarafan/img/like.svg" alt="" class="icon"></a>
                     <a class="ico" href=""><img src="../sarafan/img/shop.svg" alt="" class="icon"></a>
                     <a class="ico" href=""><img src="../sarafan/img/people.svg" alt="" class="icon"></a>
                 </div>
                 
-            </nav>       
+            </nav>
+            <div class="dropdown-overlay">
+                <div class="dropdown-content">
+                    <div class="dropdown-text">
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Платья</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Пальто и тренчи</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Пуховики</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Куртки и жилеты</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Деним</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Блузы и топы</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Брюки</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Юбки</p></a>
+                              
+                    </div>
+                    
+                    <div class="dropdown-text-2">
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Рубашки</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Футболки</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Свитеры</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Толстовки</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Комплекты</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Комбинезоны</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Шорты</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Купальник</p></a>
+                        
+                    </div>
+
+                    <div class="dropdown-image">
+                        <div class="dropdown-img">
+                            <img class="drowdown-girl" src="../sarafan/img/girl.png" alt="">  
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </section>  
 
@@ -58,7 +97,7 @@
                     </div>
                     <button class="info__button" ><img src="../sarafan/img/Vectorbottom.svg" alt=""></button>
                     <button class="info__filter">Фильтр</button></div>
-            </div>
+                </div>
         </div>
     </section>
     <section class="dress" >

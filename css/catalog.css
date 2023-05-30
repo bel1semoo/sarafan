@@ -152,6 +152,8 @@
 }
 body{
     font-family: 'Montserrat';
+    
+    
 }
 .info__page{
     display:flex;
@@ -480,3 +482,57 @@ body{
     color: #2D2D2D;
 }
 
+<<<<<<< HEAD
+=======
+.dropdown-overlay {
+    padding-top: 85px;
+    
+}
+
+.dropdown-text {
+    display: inline-block;
+}
+
+.dropdown-text-2 {
+    display: inline-block;
+    padding-left: 130px;
+}
+
+.drowdown-girl {
+    position: absolute;
+    width: 523px;
+    height: 694px;
+    left: 950px;
+    top: 90px;
+
+
+}
+
+.dropdown-overlay {
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40%;
+    
+}
+
+.drowdown-girl {
+    width: 500px;
+    height: 600px;
+}
+
+.dropdown-textes {
+    margin-bottom: 15px;
+}
+
+.dropdown-textes {
+    display: flex;
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.dropdown-overlay.open {
+    overflow: hidden;
+}
+>>>>>>> 983b3250ed7ae25095e32085ffbb7527ae171ac9
