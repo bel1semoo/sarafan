@@ -539,4 +539,21 @@ body{
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> c6ca1972fba9bc26a404c0a534f3a95a6018d541
+=======
+
+.filtr {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 685px;
+    height: 951px;
+    top: 0;
+    right: 0;
+}
+
+.close {
+    display: block;
+    
+}
+>>>>>>> 0e9145c75a7762a1de5a9697746712d3f713b5f1
