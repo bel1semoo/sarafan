@@ -481,6 +481,10 @@ body{
 .nav__list-footer > li > a {
     color: #2D2D2D;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6ca1972fba9bc26a404c0a534f3a95a6018d541
 .dropdown-overlay {
     padding-top: 85px;
     
@@ -532,3 +536,7 @@ body{
 .dropdown-overlay.open {
     overflow: hidden;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6ca1972fba9bc26a404c0a534f3a95a6018d541
