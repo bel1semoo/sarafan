@@ -31,9 +31,14 @@ body{
 }   
 
 .buy__photo{
-    display:grid;
-    gap:5px;
+    display:flex;
 }
-.photik{
-    display:inline;
+.buy__buttons{
+    max-width: 70px;
+}
+.buy__button{
+    margin-bottom:10px;
+}
+.buy__button:last-child{
+    margin-bottom:0;
 }

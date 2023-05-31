@@ -1,3 +1,10 @@
+[class*="__container"]{
+    max-width: 1170px;
+    margin:0 auto;
+}
+body{
+    font-family: 'Montserrat';
+}
 .nav__list {
     display: flex;
     margin-right: 44px;
@@ -186,4 +193,322 @@
 
 .dropdown-overlay.open {
     overflow: hidden;
+}
+.header__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 230%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.info__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.info__overalls {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113.9%;
+    color: #C4C4C4;
+    margin-left:4px;
+}  
+.info{
+    margin-bottom: 30px;
+}
+.buy__photo{
+    display:flex;
+    margin-right: 76px;
+}
+.buy__buttons{
+    max-width: 70px;
+    max-height: 97px;
+}
+.buy__button{
+    margin-bottom:10px;
+}
+.buy__button:last-child{
+    margin-bottom:0;
+}
+.buy__main-photo{
+    margin-left: 10px;
+    width: 590px;
+    height: 762px;
+}
+.img-1{
+    text-align: right;
+    background-image: url("../img/IMG_4770big.png");
+}
+.buy{
+    margin-bottom: 120px;
+}
+.buy__link {
+    padding:16px 25px;
+}
+.buy__arrow-left {
+    float:left;
+    margin:325px 0 240px 23px;
+}
+.buy__arrow-right {
+    float:right;
+    margin:325px 23px 240px 0;
+}
+.buy__info {
+    display:flex;
+}
+.buy__logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin-bottom: 4px;
+}
+.buy__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 20px;
+}
+.buy__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2D2D2D;
+    margin-bottom: 40px;
+}
+.buy__colors {
+    margin-bottom: 20px;
+}
+.buy__color-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 10px;
+    gap:4px;
+}
+.buy__red {  
+    width: 39px;
+    height: 55px;
+    background: #C21414;
+    border: 1.5px solid #2D2D2D;
+}
+.buy__white {
+    width: 39px;
+    height: 55px;
+    background: #CEB9AD;
+}
+.buy__black {
+    width: 39px;
+    height: 55px;
+    background: #2D2D2D;
+}
+.buy__size {
+    width: 370px;
+    height: 56px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    border: 1px solid #CECECE;
+    margin-bottom: 10px;
+}
+.buy__buy {
+    width: 370px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #FFFFFF;
+    background: #2D2D2D;
+    margin-bottom: 30px;
+}
+.buy__delivery {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 42px;
+}
+.buy__compound {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.buy__care {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.buy__code{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: #DADADA;
+    margin-bottom: 26px;
+}
+.buy__table{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    text-decoration-line: underline;
+    color: #CECECE;
+    margin-bottom: 40px;
+}
+.buy__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin-bottom: 25px;
+}
+.buy__description::after{
+    content: "+";
+    margin-left:207px;
+}
+.buy__composition {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.buy__composition::after{
+    content: "+";
+    margin-left:240px;
+}
+.buy__button_image{
+    margin:5px 0 0 24px;
+}
+.collection{
+    margin-bottom: 120px;
+}
+
+.collection__logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+
+.collection__group-1 {
+    display:flex;
+}
+.collection__card {
+    margin:30px 15px 20px 15px;
+}
+.collection__card:first-child{
+    margin:30px 15px 20px 0;
+}
+.collection__image {
+    width:270px;
+    height: 353px;
+}
+.collection__link {
+    padding:17px 15px 0 0; 
+    float: right
+}
+.collection__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin:20px 0 8px 0;
+}
+.collection__price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.image-1{
+    background-image: url("../img/IMG_4811.png");
+}
+.image-2{
+    background-image: url("../img/IMG_8180.png");
+}
+.image-3{
+    background-image: url("../img/IMG_4801.png");
+}
+
+.like__logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin-top:120px;
+}
+.like__cards {
+}
+.like__group-1 {
+    display:flex;
+}
+.like__card {
+    margin:30px 15px 20px 15px;
+}
+.like__card:first-child{
+    margin:30px 15px 20px 0;
+}
+.like__image {
+    width:270px;
+    height: 353px;
+}
+.image_1 {
+    background-image: url("../img/IMG_4951.png");
+}
+.like__link {
+    padding:17px 15px 0 0; 
+    float: right
+}
+.like__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin:20px 0 8px 0;
+}
+.like__price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.image_2 {
+    background-image: url("../img/IMG_4811.png");
+}
+.image_3 {
+    background-image: url("../img/IMG_8180.png");
+}
+.image_4 {
+    background-image: url("../img/IMG_4801.png");
 }
