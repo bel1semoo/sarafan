@@ -534,3 +534,17 @@ body{
     overflow: hidden;
 }
 
+
+.filtr {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 685px;
+    height: 951px;
+    top: 0;
+    right: 0;
+}
+
+.close {
+    display: block;
+    
+}
