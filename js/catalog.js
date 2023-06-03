@@ -32,3 +32,16 @@ document.addEventListener('DOMContentLoaded', function() {
       aboutFilter.style.display = 'none';
     }
   }
+
+
+function toggleFilterActive() {
+    var filterSection = document.querySelector('.filtr');
+    var btnSizes = document.querySelector('.btn-order');    
+    if (filterSection.classList.contains('active')) {
+        filterSection.classList.remove('active');
+        btnSizes.style.display = 'none';
+    } else {
+        filterSection.classList.add('active');
+        btnSizes.style.display = 'block';
+    }
+}
