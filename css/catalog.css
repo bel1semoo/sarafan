@@ -481,10 +481,7 @@ body{
 .nav__list-footer > li > a {
     color: #2D2D2D;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> c6ca1972fba9bc26a404c0a534f3a95a6018d541
 .dropdown-overlay {
     padding-top: 85px;
     
@@ -510,6 +507,7 @@ body{
 }
 
 .dropdown-overlay {
+    display: none;
     background: white;
     width: 100%;
     height: 100%;
@@ -536,14 +534,10 @@ body{
 .dropdown-overlay.open {
     overflow: hidden;
 }
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
->>>>>>> c6ca1972fba9bc26a404c0a534f3a95a6018d541
-=======
 
 .filtr {
+    
     position: fixed;
     background-color: #FFFFFF;
     width: 685px;
@@ -552,8 +546,56 @@ body{
     right: 0;
 }
 
-.close {
-    display: block;
-    
+.btn-close{
+    display: inline-block;
+    padding-left: 500px;
+    padding-top: 56px;
 }
->>>>>>> 0e9145c75a7762a1de5a9697746712d3f713b5f1
+
+.color {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 66px;
+}
+
+.colors {
+    padding-left: 60px;
+}
+
+.plus-img {
+    padding-right: 187px;
+}
+
+.btn-326 {
+    display: flex;
+    background: #2D2D2D;
+    color: #fff;
+    padding: 19px 77px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.result-btn {
+    display: flex;
+    padding-left: 60px;
+    padding-top: 288px;
+}
+
+.btn-order {
+    display: none;
+}
+
+.btn-sizes {
+
+    
+    padding-top: 29px;
+    padding-left: 60px;
+}
+
+.btn-size {
+    border: 1px solid #CECECE;
+    color: #2D2D2D;
+    padding: 13px 51px;
+}
+
