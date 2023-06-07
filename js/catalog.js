@@ -46,21 +46,19 @@ function toggleFilterActive() {
     }
 }
 
-const valueSpan = document.querySelector('.counter .value');
-const plusBtn = document.querySelector('.counter .plus');
-const minusBtn = document.querySelector('.counter .minus');
+function toggleShop(event) {
+  event.preventDefault()
+  var shop = document.querySelector(".shop");
+  shop.style.display = "block";
+}
 
-let counterValue = 0;
+function toggleShopClose() {
+  var shop = document.querySelector(".shop");
+  shop.style.display = "none";
+}
 
-plusBtn.addEventListener('click', function() {
-  counterValue++;
-  valueSpan.innerText = counterValue;
-});
+var icon2 = document.querySelector(".icon2");
+icon2.addEventListener("click", toggleShop);
 
-minusBtn.addEventListener('click', function() {
-  if (counterValue > 0) {
-    counterValue--;
-    valueSpan.innerText = counterValue;
-  }
-});
-
+var closeShop = document.querySelector(".close-shop");
+closeShop.addEventListener("click", toggleShopClose);

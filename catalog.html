@@ -9,8 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;800&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
-    <script src="../sarafan/js/catalog.js"></script>
-    <script src="../sarafan/js/jquery-3.6.4.min.js"></script>
     <title>Каталог</title>
 </head>
 <body>
@@ -41,10 +39,10 @@
 
                 
                 <div class="icons">
-                    <a class="ico" href=""><img src="../sarafan/img/like.svg" alt="" class="icon"></a>
-                    <a class="ico" href=""><img src="../sarafan/img/shop.svg" alt="" class="icon"></a>
-                    <a class="ico" href=""><img src="../sarafan/img/people.svg" alt="" class="icon"></a>
-                </div>
+                    <a class="ico" href=""><img src="../sarafan/img/like.svg" alt="" class="icon1"></a>
+                    <a class="ico" href="" onclick="toggleShop(event)"><img src="../sarafan/img/shop.svg" alt="" class="icon2"></a>
+                    <a class="ico" href=""><img src="../sarafan/img/people.svg" alt="" class="icon3"></a>
+                </div>  
                 
             </nav>
 
@@ -135,7 +133,7 @@
     <div class="shop">
         <div class="shop-up">
             <div class="btn-close_shop">
-                <button class="shop-btn"><img src="../sarafan/img/close.svg" alt=""></button>
+                <button class="shop-btn"><img class="close-shop" src="../sarafan/img/close.svg" onclick="toggleShopClose()" alt=""></button>
             </div>
         </div>
 
@@ -186,7 +184,7 @@
                 <div class="trash-shop">
                     <img class="trash" src="../sarafan/img/trash.svg" alt="">
                     <div class="delete-shop">
-                        <p class="delete">Удалить</p> 
+                        <a href=""><p class="delete">Удалить</p></a>
                     </div>
                 </div>
                 
@@ -236,7 +234,7 @@
                 <div class="trash-shop">
                     <img class="trash" src="../sarafan/img/trash.svg" alt="">
                     <div class="delete-shop">
-                        <p class="delete">Удалить</p> 
+                        <a href=""><p class="delete">Удалить</p></a> 
                     </div>
                 </div>
                 
@@ -438,5 +436,8 @@
             </div>   
         </div>    
     </footer>
+
+    <script src="../sarafan/js/jquery-3.6.4.min.js"></script>
+    <script src="../sarafan/js/catalog.js"></script>
 </body>
 </html>
