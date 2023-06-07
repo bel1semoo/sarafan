@@ -45,3 +45,22 @@ function toggleFilterActive() {
         btnSizes.style.display = 'block';
     }
 }
+
+const valueSpan = document.querySelector('.counter .value');
+const plusBtn = document.querySelector('.counter .plus');
+const minusBtn = document.querySelector('.counter .minus');
+
+let counterValue = 0;
+
+plusBtn.addEventListener('click', function() {
+  counterValue++;
+  valueSpan.innerText = counterValue;
+});
+
+minusBtn.addEventListener('click', function() {
+  if (counterValue > 0) {
+    counterValue--;
+    valueSpan.innerText = counterValue;
+  }
+});
+

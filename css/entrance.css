@@ -341,3 +341,11 @@ body{
 .nav__list-footer > li > a {
     color: #2D2D2D;
 }
+
+.reg > a {
+    color: #2D2D2D;
+}
+
+.register1:hover {
+    color: #C4C4C4;
+}
