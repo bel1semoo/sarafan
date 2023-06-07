@@ -587,8 +587,6 @@ body{
 }
 
 .btn-sizes {
-
-    
     padding-top: 29px;
     padding-left: 60px;
 }
@@ -599,3 +597,6 @@ body{
     padding: 13px 51px;
 }
 
+.btn-size:hover {
+    background: #E5E5E5;
+}
