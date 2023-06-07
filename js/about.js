@@ -12,9 +12,6 @@ function toggleAbout() {
     }
 }
 
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
     var aboutFilter = document.querySelector('.filtr');
     aboutFilter.style.display = 'none';
@@ -33,34 +30,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-//Нажати по фильтр
-function toggleFilterActive() {
-    var filterSection = document.querySelector('.filtr');
-    var btnSizes = document.querySelector('.btn-order');    
-    if (filterSection.classList.contains('active')) {
-        filterSection.classList.remove('active');
-        btnSizes.style.display = 'none';
-    } else {
-        filterSection.classList.add('active');
-        btnSizes.style.display = 'block';
-    }
-}
-
 //Магазин избранное
 
 function toggleShop(event) {
-  event.preventDefault()
-  var shop = document.querySelector(".shop");
-  shop.style.display = "block";
-}
-
-function toggleShopClose() {
-  var shop = document.querySelector(".shop");
-  shop.style.display = "none";
-}
-
-var icon2 = document.querySelector(".icon2");
-icon2.addEventListener("click", toggleShop);
-
-var closeShop = document.querySelector(".close-shop");
-closeShop.addEventListener("click", toggleShopClose);
+    event.preventDefault()
+    var shop = document.querySelector(".shop");
+    shop.style.display = "block";
+  }
+  
+  function toggleShopClose() {
+    var shop = document.querySelector(".shop");
+    shop.style.display = "none";
+  }
+  
+  var icon2 = document.querySelector(".icon2");
+  icon2.addEventListener("click", toggleShop);
+  
+  var closeShop = document.querySelector(".close-shop");
+  closeShop.addEventListener("click", toggleShopClose);

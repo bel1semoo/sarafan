@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../sarafan/css/about.css">
+    <link rel="stylesheet" href="../sarafan/css/reset.css">
+    <title>О нас</title>
+</head>
+<body>
+    <section class="header">
+        <div class="header__wrapper">
+            <nav class="header__list">
+                <ul class="nav__list">
+                    <div class="menu">
+                        <li class="header__text"><a href="#new" >Новинки</a></li>
+                    </div>
+                    
+                    <li class="header__text"><a  href="#gg" onclick="toggleAbout()">Одежда</a></li>
+                         
+                    </li>
+                    <li class="header__text"><a href="">Аксессуары</a></li>
+                    <div class="menu-2">
+                        <li class="header__text"><a href="#sale">SALE</a></li>
+                    </div>
+                    
+                                     
+                </ul>
+                <a href="index.html"><img class="logo" src="../sarafan/img/logo.svg" alt=""></a>
+                <div class="search">
+                    <img class="search-1" src="../sarafan/img/search.svg" alt="">
+                    <input type="text" class="search-input" placeholder="Поиск">
+                </div>
+
+                
+                <div class="icons">
+                    <a class="ico" href=""><img src="../sarafan/img/like.svg" alt="" class="icon1"></a>
+                    <a class="ico" href="" onclick="toggleShop(event)"><img src="../sarafan/img/shop.svg" alt="" class="icon2"></a>
+                    <a class="ico" href=""><img src="../sarafan/img/people.svg" alt="" class="icon3"></a>
+                </div>  
+                
+            </nav>
+
+            <div class="dropdown-overlay">
+                <div class="dropdown-content">
+                    <div class="dropdown-text">
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Платья</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Пальто и тренчи</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Пуховики</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Куртки и жилеты</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Деним</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Блузы и топы</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Брюки</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Юбки</p></a>
+                              
+                    </div>
+                    
+                    <div class="dropdown-text-2">
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Рубашки</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Футболки</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Свитеры</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Толстовки</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Комплекты</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Комбинезоны</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Шорты</p></a>
+                        <a href="" class="dropdown-link"><p class="dropdown-textes">Купальник</p></a>
+                        
+                    </div>
+
+                    <div class="dropdown-image">
+                        <div class="dropdown-img">
+                            <img class="drowdown-girl" src="../sarafan/img/girl.png" alt="">  
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="shop">
+            <div class="shop-up">
+                <div class="btn-close_shop">
+                    <button class="shop-btn"><img class="close-shop" src="../sarafan/img/close.svg" onclick="toggleShopClose()" alt=""></button>
+                </div>
+            </div>
+
+            <div class="my-shop">
+                <p class="my_cloth">Моя корзина</p>
+            </div>
+
+                <div clss="cart-shop-1">
+                    <img class="girl-shop-1" src="../sarafan/img/girl-btn.png" alt="">
+                    <div class="text-shop">
+                        <div class="shop-nav">
+                            <p class="shirt">Хлопковая рубашка с вырезом <br> на плече</p>             
+                        </div>
+                    <div class="shop-nav-2">
+                        <p class="price-shop-1">7 499 руб.</p>
+                        </div>
+                    
+                    <div class="shop-nav-3">
+                        <p class="size-shop">Размер</p>
+                        <div class="value-shop" >
+                            <select class="select-shop">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XS">XS</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="count-shop">
+                        <p class="count">Количество</p>
+                        <div class="counts-shop">
+                            <div class="counter">
+                                <button class="minus">-</button>
+                                <span class="value">1</span>
+                                <button class="plus">+</button>
+                            </div>                                          
+                        </div>
+                        </div>
+                    
+                    <div class="color-shop">
+                        <p class="colors-shop">Цвет</p>
+                        <div class="color-white">
+                            <p class="white">Белый</p>
+                        </div>
+                        </div>
+                    
+                    <div class="trash-shop">
+                        <img class="trash" src="../sarafan/img/trash.svg" alt="">
+                        <div class="delete-shop">
+                            <a href=""><p class="delete">Удалить</p></a>
+                        </div>
+                    </div>
+
+                    </div>  
+                </div>
+
+                <div clss="cart-shop-1">
+                    <img class="girl-shop-1" src="../sarafan/img/girl-btn-2.png" alt="">
+                    <div class="text-shop">
+                        <div class="shop-nav">
+                            <p class="shirt">Принтованное платье с запахом</p>             
+                        </div>
+                    <div class="shop-nav-2">
+                        <p class="price-shop-1">7 499 руб.</p>
+                        </div>
+                    
+                    <div class="shop-nav-3">
+                        <p class="size-shop">Размер</p>
+                        <div class="value-shop" >
+                            <select class="select-shop">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XS">XS</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="count-shop">
+                        <p class="count">Количество</p>
+                        <div class="counts-shop">
+                            <div class="counter">
+                                <button class="minus">-</button>
+                                <span class="value">1</span>
+                                <button class="plus">+</button>
+                            </div>                                          
+                        </div>
+                    </div>
+                    
+                    <div class="color-shop">
+                        <p class="colors-shop">Цвет</p>
+                        <div class="color-white">
+                            <p class="white">Белый</p>
+                        </div>
+                        </div>
+                    
+                    <div class="trash-shop">
+                        <img class="trash" src="../sarafan/img/trash.svg" alt="">
+                        <div class="delete-shop">
+                            <a href=""><p class="delete">Удалить</p></a> 
+                        </div>
+                    </div>
+
+                    </div>  
+                </div>
+
+                <div class="sell-shop">
+                    <p class="sell-shops">Стоимость товара(-ов): 14 498 руб </p>
+                </div>
+
+                <div class="sells-shop">
+                    <button class="sells">Перейти к оформлению</button>
+                </div>
+            </div>
+        </div>          
+    </div>
+
+    <section class="about-us">
+        <div class="header__wrapper">
+            <div class="main-sec">
+                <a class="main-about" href="">Главная /</a>
+                <a class="main-about-us" href="">О нас</a>
+            </div>
+            <div class="about-us-main">
+                <p class="aboutus">О нас</p>
+            </div>
+            <div class="about-section-me">
+                <p class="about-text">
+                    Разнообразный и богатый опыт рамки и место обучения кадров способствует подготовки и реализации форм <br> развития. Разнообразный и богатый опыт рамки и место обучения кадров способствует подготовки и реализации <br> форм развития. С другой стороны реализация намеченных плановых Разнообразный и богатый опыт рамки и <br> место обучения кадров способствует подготовки и реализации форм развития. Разнообразный и богатый опыт <br> рамки и место обучения кадров способствует подготовки и реализации форм развития. С другой стороны <br> реализация намеченных плановых 
+                </p>
+            </div>
+            <div class="img-about">
+                <img src="../sarafan/img/about-us.png" alt="" class="about-1">
+                <div class="img-about-2">
+                    <img src="../sarafan/img/about-us-me.png" alt="" class="about-2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="items-2">
+            <div class="header__wrapper">
+                <nav class="footer__list">
+                    <div class="item">
+                        <img src="../sarafan/img/logo_footer.svg" alt="">
+                        <ul class="nav__list-footer">
+                            <a href=""><li class="footer-text-1">Помощь</li></a>
+                            <a href=""><li class="footer-text">Оплата</li></a>
+                            <a href=""><li class="footer-text">Доставка</li></a>
+                            <a href=""><li class="footer-text">Возврат и обмен</li></a>
+                            <a href=""><li class="footer-text">Почта</li></a>
+                        </ul>
+                        
+                        <ul class="nav__list-footer-2">
+                            <a href=""><li class="footer-text-1">Компания</li></a> 
+                            <a href=""><li class="footer-text">О нас</li></a>
+                            <a href=""><li class="footer-text">Наши магазины</li></a>
+                            <a href=""><li class="footer-text">Контакты</li></a>
+                            <a href=""><li class="footer-text">Место</li></a>
+                        </ul>
+
+                        <ul class="nav__list-footer-3">
+                            <a href=""><li class="footer-text-1">Следите за нами</li></a>
+                            <a href=""><li class="footer-text">TikTok</li></a>
+                            <a href=""><li class="footer-text">Vk</li></a>
+                            <a href=""><li class="footer-text">Telegram</li></a>
+                            <a href=""><li class="footer-text">Pinterest</li></a>                 
+                        </ul>       
+                    </div>
+                </nav>        
+            </div>
+            <div class="footer-text-row">
+                <div class="text-row">
+                    <p class="poli">Все права защищены.Пользовательское соглашение. Политика конфиденциальности <br> © 2022 sarafancollection.ru</p>
+                </div>
+            </div>   
+        </div>    
+    </footer>
+    
+    <script src="../sarafan/js/about.js"></script>
+</body>
+</html>

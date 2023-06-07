@@ -1,0 +1,517 @@
+.nav__list {
+    display: flex;
+    margin-right: 44px;
+    text-align: center;
+    column-gap: 44px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav__list > li > a {
+    color: #2D2D2D;
+}
+
+.menu a {
+    color: #2D2D2D;
+}
+
+.menu-2 a {
+    color: #2D2D2D;
+}
+  
+
+.header__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__wrapper {
+    max-width: 1170px;
+    margin:0 auto; 
+}
+
+  
+.logo {   
+    padding-left: 30px;
+}
+
+.search {
+    padding-left: 86px;
+}
+
+.search-1 {
+    position: absolute;
+    left: 59.2%;
+    right: 33.91%;
+    top: 3.6%;
+}
+
+
+.header__text:hover{
+    text-decoration: underline;
+    text-underline-offset: 25px;
+}
+
+
+.search-input {
+    border: none;
+    border-bottom: 1px solid #6F6F6F;
+    outline: none;
+    padding: 5px 0;
+    font-size: 16px;
+    width: 200px;
+}
+
+  .search-input::placeholder {
+    color: #6F6F6F;
+    opacity: 0.6;
+    padding-left: 27px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+}
+  
+  
+  .search-input::placeholder {
+    color: #6F6F6F;
+    opacity: 0.6;
+}
+
+.icons {
+    padding-left: 74px;
+}
+
+.ico:nth-child(2) {
+    margin-left: 25px;
+}
+
+.ico:nth-child(3) {
+    margin-left: 25px;
+}
+
+.text {
+    display: flex;
+    padding-left: 71%;
+    padding-top: 241px;
+}
+
+.loves {
+    padding-left: 66%;
+    padding-top: 25px;
+}
+
+.love {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 63px;
+    color: #fff;
+}
+
+.summer {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+}
+
+.you {
+    padding: 0 65px;
+}
+
+.catalogs {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 19px 68px;
+}
+
+.cato {
+    color: #2D2D2D;
+}
+
+.about {
+    padding-top: -7%;
+}
+
+.catalog-product {
+    padding-left: 69%;
+    padding-top: 10px;
+}
+
+.header__wrapper {
+    max-width: 1170px;
+    margin:0 auto;
+    
+}
+
+
+
+.info{
+    margin-bottom:50px;
+}
+
+.info__container{
+    max-width: 1170px;
+    margin:0 auto;
+    padding-top: 50px; 
+}
+body{
+    font-family: 'Montserrat';
+    
+    
+}
+
+.dropdown-overlay {
+    padding-top: 85px;
+    
+}
+
+.dropdown-text {
+    display: inline-block;
+}
+
+.dropdown-text-2 {
+    display: inline-block;
+    padding-left: 130px;
+}
+
+.drowdown-girl {
+    position: absolute;
+    width: 523px;
+    height: 694px;
+    left: 950px;
+    top: 90px;
+
+
+}
+
+.dropdown-overlay {
+    display: none;
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40%;
+    
+}
+
+.drowdown-girl {
+    width: 500px;
+    height: 600px;
+}
+
+.dropdown-textes {
+    margin-bottom: 15px;
+}
+
+.dropdown-textes {
+    display: flex;
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.dropdown-overlay.open {
+    overflow: hidden;
+}
+
+.main-sec {
+    padding-top: 65px;
+}
+
+.main-about {
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.main-about-us {
+    font-weight: 400;
+    font-size: 13px;
+    color: #CECECE;
+}
+
+.about-us-main {
+    padding-top: 10px;
+}
+
+.about-us {
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.about-text {
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about-1 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.img-about {
+    display: flex;
+}
+
+.about-2 {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.shop {
+    display: none;
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 685px;
+    height: 951px;
+    top: 0;
+    right: 0;
+}
+
+
+
+.btn-close_shop{
+    display: inline-block;
+    padding-left: 500px;
+    padding-top: 56px;
+}
+
+.my_cloth {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 37px;
+    padding-left: 30px;
+}
+
+.girl-shop-1 {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.shirt {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.text-shop {
+    display: inline-block;
+}
+
+.cart-shop-1 {
+    display: flex;
+}
+
+.price-shop-1 {
+    display: inline-block;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    padding-top: 6px;
+    padding-left: 20px;
+    color: #2D2D2D;
+}
+
+.size-shop {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 13px;
+}
+
+.shop-nav {
+    display: inline-block;
+}
+
+.shop-nav-2 {
+    display: flex;
+}
+
+.shop-nav-3 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.select-shop {
+    border: 1px solid #E5E5E5;
+    padding: 8px 0 7px 20px;
+}
+.value-shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.count {
+    padding-top: 27px;
+    padding-left: 20px;
+}
+
+.count-shop {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.counts-shop {
+    padding-top: 22px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+  
+  .counter button {
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .counter .value {
+    margin: 0 5px;
+    font-size: 18px;
+  }
+
+  
+.counter {
+    display: flex;
+    justify-content: center;
+}
+
+.count {
+    display: inline-block;
+}
+
+.color-shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colors-shop {
+    padding-top: 21px;
+    padding-left: 20px;
+}
+
+.white {
+    padding-top: 21px;
+    color: #2D2D2D;
+}
+
+.trash-shop {
+    display: flex;
+}
+
+.trash {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.delete {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #6F6F6F;
+    text-decoration: underline;
+}
+
+.sell-shops {
+    padding-top: 63px;
+    padding-left: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sells {
+    padding: 19px 78px;
+    border: 1px solid #CECECE;
+    color: #2D2D2D;
+}
+
+.sells-shop {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.sells:hover {
+    background: #2D2D2D;
+    color: #fff;
+}
+
+.footer {
+    padding-top: 5%;
+}
+
+.items-2 {
+    border-top: 1px solid #C4C4C4;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.footer-text {
+    margin: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.footer-text-1 {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 27px;
+    color: #2D2D2D;
+    
+}
+
+.item {
+    padding-top: -10%;
+}
+
+.footer-text {
+    padding-left: 19px;
+    color: #2D2D2D;
+}
+
+.footer-text:hover {
+    
+    color: #C4C4C4;
+}
+
+.nav__list-footer {
+    display: inline-block;
+    padding-left: 150px;
+    padding-top: -20px;
+    
+}
+
+.nav__list-footer-2 {
+    display: inline-block;
+    padding-left: 150px;
+    padding-top: 15px;
+    
+}
+
+.nav__list-footer-3 {
+    display: inline-block;
+    padding-left: 150px;
+    
+}
+
+.poli {
+    text-align: center;
+    padding-top: 140px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #CECECE;
+}
+
+.nav__list-footer > li > a {
+    color: #2D2D2D;
+}
