@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../sarafan/css/entrance.css">
     <link rel="stylesheet" href="../sarafan/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@300;400;500;600;800&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <script src="../sarafan/js/entrance.js"></script>
     <title>Вход</title>
 </head>
@@ -78,23 +81,19 @@
             </div>
         </div>
     </section>
-
-    <section class="entrance">
-        <div class="header__wrapper">
-            <div class="inputs_ent">
-                <p class="vhod">Вход</p>
-            </div>
-            <div class="gmail">
-                <input type="text" class="search-gmail" placeholder="Введите E-mail">
-            </div>
-            <div class="password">
-                <input type="text" class="search-password" placeholder="Введите пароль">
-            </div>
-            <div class="btn-entrance">
-                <button class="entrance-vhod">Войти</button>
-            </div>
-            <div class="reg">
-                <a href=""><p class="register1">Регистрация / Забыли пароль?</p></a>
+    <section class="logout" >
+        <div class="logout__container">
+            <div class="logout__body">
+                <div class="logout__logo">Вход</div>
+                <div class="logout__logout">
+                    <input type="text" class="logout__email" placeholder="Введите E-mail"><br>
+                    <input type="password" class="logout__password" placeholder="Введите пароль">
+                </div>
+                <button class="logout__login">Войти</button>
+                <div class="logout__text">
+                    <a href="" class="logout__registration" >Регистрация</a> /
+                    <a href="" class="logout__Forgot" >Забыли пароль?</a>
+                </div>
             </div>
         </div>
     </section>
