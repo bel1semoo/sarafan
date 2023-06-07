@@ -1,0 +1,81 @@
+[class*="__container"]{
+    max-width: 1170px;
+    margin:0 auto;
+}
+body{
+    font-family:'Montserrat';
+}
+.logout {
+    margin-top: 120px;/*Убрать после добовления header*/
+}
+.logout__logout{
+    margin-bottom: 50px;
+}
+.logout__body{
+    text-align: center;
+}
+.logout__logo {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.logout__email {
+    width: 443px;
+    padding-bottom: 11px;
+    margin-bottom: 51px;
+    border-bottom: 1px solid #DADADA;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+}
+.logout__password {
+    width: 443px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #DADADA;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+}
+.logout__login {
+    margin-bottom: 20px;
+    padding:19px 158px;
+    background: #2D2D2D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.logout__login:hover{
+    background: #8a8a8a;
+}
+.logout__login:active{
+
+    background: #999999;
+}
+.logout__text {
+ 
+}
+.logout__registration {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.logout__Indent{
+}
+.logout__Forgot {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
