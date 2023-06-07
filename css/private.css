@@ -1,0 +1,190 @@
+[class*="__container"]{
+    max-width: 1170px;
+    margin:0 auto;
+    padding-top: 50px;
+}
+body{
+    font-family: 'Montserrat';
+}
+.personal {
+}
+.personal__container {
+}
+.personal__where {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin-bottom: 10px;
+}
+.personal__main {
+    color:#C4C4C4;
+}
+.personal__lk {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin-bottom: 30px;
+}
+.personal__logout {
+    margin: 0 130px 80px 0;
+    width: 570px;
+    height: 452px;
+}
+.personal__input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: #C4C4C4;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #DADADA;
+}
+.personal__data-logo {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.personal__evidence {
+    display:grid;
+    gap:20px;
+    width: 570px;
+}
+.personal__save {
+    width: 270px;
+    height: 56px;
+    border: 1px solid #CECECE;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.personal__save:hover{
+    background-color: #6e6e6e;
+    opacity: 0.6;
+}
+.personal__save:active{
+    background-color: #333333;
+    opacity: 0.8;
+}
+.personal__account{
+    display:inline-flex;
+}
+.personal__info {
+    gap:20px;
+}
+.personal__main-info {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.personal__order {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: rgba(111, 111, 111, 0.62);
+    margin-bottom: 20px;
+}
+.personal__exit {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: rgba(111, 111, 111, 0.62);
+}
+.personal__new {
+    margin-bottom: 80px;
+}
+.personal__new-logo {
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
+.personal__password {
+}
+.personal__new-password {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: #C4C4C4;
+    margin-bottom: 40px;  
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 11px;
+    width: 564px;
+}
+.personal__save-password {
+    border: 1px solid #CECECE;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    width: 270px;
+    height: 56px;
+}
+.personal__save-password:hover{
+    background-color: #6e6e6e;
+    opacity: 0.6;
+}
+.personal__save-password:active{
+    background-color: #333333;
+    opacity: 0.8;
+}
+.personal__notifications {
+    margin-bottom: 100px;
+}
+
+.personal__order-button{
+    margin-bottom: 20px;
+}
+.personal__main-button{
+    margin-bottom: 20px;
+}
+
+
+.personal__notifications-logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin-bottom: 34px;
+}
+.personal__agreement {
+    display: flex;
+}
+.personal__checkbox {
+    margin-right: 11.23px;
+}
+.personal__checkbox-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 107.61%;
+    color: #2D2D2D;
+}
