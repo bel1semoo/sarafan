@@ -516,3 +516,6 @@ body {
     color: #2D2D2D;
 }
 
+.like-btn:hover {
+    color: #fff;
+}
