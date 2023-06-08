@@ -5,7 +5,9 @@
 body{
     font-family: 'Montserrat';
 }
-
+.collection{
+    margin-bottom: 100px;
+}
 .collection__logo {
     font-family: 'Montserrat';
     font-style: normal;
