@@ -1,0 +1,68 @@
+[class*="__container"]{
+    max-width: 1170px;
+    margin:0 auto;
+    padding-top: 50px;
+}
+body{
+    font-family: 'Montserrat';
+}
+.restore {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.restore__container {
+}
+.restore__logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.restore__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 40px;
+}
+.restore__input {   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: black;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 11px;
+    width: 443px;
+    margin-bottom: 50px;
+}
+.restore__input::placeholder{
+    color: #C4C4C4;
+}
+.restore__restore{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2D2D2D;
+    width: 370px;
+    height: 56px;
+}
+.restore__button {
+    display: flex;
+    justify-content: center;
+}
+.restore__restore:hover{
+    background: silver;
+}

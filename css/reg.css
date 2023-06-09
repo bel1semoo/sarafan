@@ -1,0 +1,67 @@
+[class*="__container"]{
+    max-width: 1170px;
+    margin:0 auto;
+    padding-top: 50px;
+}
+body{
+    font-family: 'Montserrat';
+}
+.reg {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 100px;
+}
+.reg__logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.reg__data {
+    margin-bottom: -10px
+}
+.reg__info {
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 11px;
+    width: 443px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: black;
+    margin-bottom: 40px;
+}
+.reg__info::placeholder{
+    color: #C4C4C4;
+}
+.reg__agreement {
+    display:flex;
+    margin-bottom: 30px;
+}
+.reg__checkbox {
+    margin-right: 12px;
+}
+.reg__text {
+}
+.reg__reg {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2D2D2D;
+    width: 370px;
+    height: 56px;
+}
+.reg__button{
+    display: flex;
+    justify-content: center;
+}
+.reg__reg:hover{
+    background: silver;
+}

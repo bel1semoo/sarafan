@@ -210,7 +210,7 @@ body{
     font-family: 'Montserrat';
 }
 .where {
-    margin-top: 100px; /*Убрать после добовления хедера*/
+    margin-top: 100px;
     margin-bottom: 10px;
 }
 .where__logo {
@@ -300,8 +300,6 @@ body{
     line-height: 130%;
     color: #2D2D2D;
 }
-.connect__idea {
-}
 .connect__idea-text {
     margin-bottom: 40px;
     font-style: normal;
@@ -310,17 +308,15 @@ body{
     line-height: 130%;
     color: #2D2D2D;
 }
-.connect__input {
-}
 .connect__inlet {
-    width: 443px;
-    border-bottom: 1px solid #DADADA;
-    padding-bottom: 11px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 113.9%;
-    color: #C4C4C4;
+    color: black;
+    width: 443px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #DADADA;
     margin-bottom: 40px;
 }
 .connect__contact{
@@ -330,11 +326,7 @@ body{
     width: 443px;
     border-bottom: 1px solid #DADADA;
     padding-bottom: 11px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 113.9%;
-    color: #C4C4C4;
+    color: black;
     margin-bottom: 32px;
 }
 .connect__necessarily{
@@ -354,7 +346,13 @@ body{
     margin-bottom: 20px;
 }
 .connect__underlining {
-    text-decoration: underline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 107.61%;
+    color: #6F6F6F;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #6F6F6F;
 }
 .connect__image {
     width: 670px;
@@ -371,9 +369,24 @@ body{
     width: 370px;
     height: 56px;
 }
-
-.footer {
-    
+.connect__button:hover{
+    background: #C0C0C0;
+}
+.connect__inlet::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: #C4C4C4;
+}
+.connect__inlet-idea::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 113.9%;
+    color: #C4C4C4;
+}
+.footer{
     padding-top: 5%;
 }
 

@@ -1,0 +1,88 @@
+[class*="__container"]{
+    max-width: 1170px;
+    margin:0 auto;
+}
+body{
+    font-family: 'Montserrat';
+}
+.collection{
+    margin-bottom: 100px;
+}
+.collection__logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin-top:120px;
+}
+
+.collection__cards {
+    display:flex;
+}
+.collection__card {
+    margin:0 15px 20px 15px;
+}
+.collection__card:first-child{
+    margin:0 15px 20px 0;
+}
+.collection__image {
+    width:270px;
+    height: 353px;
+}
+.collection__link {
+    padding:17px 15px 0 0; 
+    float: right
+}
+.collection__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+    margin:20px 0 8px 0;
+}
+.collection__price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 113.9%;
+    color: #2D2D2D;
+}
+.image-1{
+    background-image: url("../img/IMG_4951.png");
+}
+.image-2{
+    background-image: url("../img/IMG_4811.png");
+}
+.image-3{
+    background-image: url("../img/IMG_8180.png");
+}
+.image-4{
+    background-image: url("../img/IMG_4801.png");
+}
+.where {
+    margin-bottom: 40px;
+}
+.where__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+    margin-bottom: 10px;
+}
+.where__decoration {
+    color: #C4C4C4;
+}
+.where__logo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 113.9%;
+    letter-spacing: 0.03em;
+    color: #2D2D2D;
+}
