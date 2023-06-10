@@ -43,7 +43,7 @@
 
 .header__wrapper {
     max-width: 1170px;
-    margin:0 auto; 
+    margin-bottom:65px ; 
 }
 
 
@@ -362,7 +362,14 @@ body{
     height: 56px;
 }
 .connect__button:hover{
-    background: #C0C0C0;
+    background: #FFFFFF;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
+}
+.connect__button:active{
+    background: silver;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
 }
 .connect__inlet::placeholder{
     font-style: normal;

@@ -45,8 +45,6 @@ body{
 .reg__checkbox {
     margin-right: 12px;
 }
-.reg__text {
-}
 .reg__reg {
     font-style: normal;
     font-weight: 400;
@@ -63,5 +61,12 @@ body{
     justify-content: center;
 }
 .reg__reg:hover{
+    background: #FFFFFF;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
+}
+.reg__reg:active{
     background: silver;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
 }

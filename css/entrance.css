@@ -251,14 +251,14 @@ body{
     color: #FFFFFF;
 }
 .logout__login:hover{
-    background: #8a8a8a;
+    background: #FFFFFF;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
 }
 .logout__login:active{
-
-    background: #999999;
-}
-.logout__text {
- 
+    background: silver;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
 }
 .logout__registration {
     font-style: normal;
@@ -266,8 +266,6 @@ body{
     font-size: 16px;
     line-height: 113.9%;
     color: #2D2D2D;
-}
-.logout__Indent{
 }
 .logout__Forgot {
     font-style: normal;
