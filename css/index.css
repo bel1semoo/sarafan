@@ -1,6 +1,4 @@
 
-
-
 .nav__list {
     display: flex;
     margin-right: 44px;
@@ -52,19 +50,19 @@
 }
 
 .search {
-    padding-left: 86px;
+    margin-left: 86px;
 }
-
-.search-1 {
-    position: absolute;
-    left: 59.2%;
-    right: 33.91%;
-    top: 9%;
+.search-input::placeholder{
+    text-decoration: none;
+}
+.search{
+    display:flex;
+    border-bottom: 1px solid #6F6F6F;  
+    width: 200px;
 }
 
 .search-input {
     border: none;
-    border-bottom: 1px solid #6F6F6F;
     outline: none;
     padding: 5px 0;
     font-size: 16px;

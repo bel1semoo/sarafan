@@ -143,7 +143,15 @@
 .dropdown-overlay {
     display: none;
     padding-top: 85px;
-    
+    transition: max-height 0.3s ease-out;     
+}
+
+.dropdown-content {
+    padding: 20px;
+}
+
+.dropdown-overlay.active {
+    max-height: 500px;
 }
 
 .dropdown-text {
@@ -399,7 +407,6 @@ body{
     margin: 6px;
     font-weight: 400;
     font-size: 16px;
-    font-family: 'Montserrat';
 }
 
 .footer-text-1 {
